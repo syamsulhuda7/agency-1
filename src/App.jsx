@@ -43,7 +43,7 @@ export default function App() {
 
       {/* ===== HERO ===== */}
       <section className="relative min-h-screen flex items-center px-8">
-        <div className="max-w-7xl mx-auto grid lg:grid-cols-2 gap-20 items-center">
+        <div className="max-w-7xl mx-auto grid py-24 md:py-0 lg:grid-cols-2 gap-20 items-center">
           <motion.div
             initial={{ opacity: 0, y: 80 }}
             animate={{ opacity: 1, y: 0 }}
@@ -206,7 +206,7 @@ export default function App() {
         />
         <div className="absolute inset-0 bg-gradient-to-t from-black via-black/50 to-transparent" />
 
-        <div className="relative z-10 max-w-4xl mx-auto h-full flex flex-col justify-center text-center">
+        <div className="relative px-8 md:px-0 z-10 max-w-4xl mx-auto h-full flex flex-col justify-center text-center">
           <h2 className="headline">
             From Invisible to
             <br />
